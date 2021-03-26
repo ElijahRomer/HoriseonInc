@@ -64,7 +64,9 @@ main { /*formatting for the entire block of main content below the header and me
     margin-left: 20px;
 }
 
-.search-engine-optimization {
+/********************** SEARCH ENGINE OPTIMIZATION BOX ***********************/
+
+#search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -73,7 +75,18 @@ main { /*formatting for the entire block of main content below the header and me
     color: #ffffff;
 }
 
-.social-media-marketing {
+#search-engine-optimization img {
+    max-height: 200px;
+}
+
+#search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*********************** SOCIAL MEDIA MARKETING BOX***********************/
+
+#social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -82,7 +95,18 @@ main { /*formatting for the entire block of main content below the header and me
     color: #ffffff;
 }
 
-.online-reputation-management {
+#social-media-marketing img {
+    max-height: 200px;
+}
+
+#social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*********************** ONLINE REPUTATION MANAGEMENT BOX ***********************/
+
+#online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -91,12 +115,21 @@ main { /*formatting for the entire block of main content below the header and me
     color: #ffffff;
 }
 
-.float-left {
+#online-reputation-management img {
+    max-height: 200px;
+}
+
+#online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.float-left { /* applies specifically to the img tag in the Search Engine Optimization and Social Media Marketing boxes (TOP AND BOTTOM) */
     float: left;
     margin-right: 25px;
 }
 
-.float-right {
+.float-right { /* applies specifically to the img tag in the Online Reputation Management boxes (MIDDLE) */
     float: right;
     margin-left: 25px;
 }
@@ -164,33 +197,8 @@ aside {
     margin: 10px auto;
     max-width: 150px;
 }
+/* WHY ARE THESE HERE ********************************************************************* */
 
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
 /* Formatting for the footer */
 footer {
     padding: 30px;
